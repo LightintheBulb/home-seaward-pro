@@ -1,32 +1,38 @@
 # home-seaward-pro
-# 12 SQL: Employee Tracker
+# 13 SQL: Object-Relational Mapping (ORM) Challenge: E-commerce Back End
 
 ## Description
-Build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
-
+```
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
+```
 ## Youtube Link
 https://youtu.be/AlveAScoZVE
 
 ## Screenshot
+<img width="1920" alt="Screenshot 2022-12-16 at 12 18 20 AM" src="https://user-images.githubusercontent.com/96213325/208028074-ba2322ac-0128-4655-b5dd-8256ddaeffe7.png">
 
 
 
 ## Features
-GET routes to return all categories, all products, and all tags
-GET routes to return a single category, a single product, and a single tag
-POST, PUT, and DELETE routes for categories
-
+```
+-GET routes to return all categories, all products, and all tags 
+-GET routes to return a single category, a single product, and a single tag
+-POST, PUT, and DELETE routes for categories
+```
 
 ## Programming Languages
 JavaScript & SQL
 
 ## Installation
+```
 Express
 Node JS
 MySQL2
 Sequelize
 dotenv
-
+```
 
 ## Contributors
 LightintheBulb
@@ -36,7 +42,7 @@ NONE
 
 ## Acceptance Criteria
 
-```md
+```
 GIVEN a functional Express.js API
 WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
 THEN I am able to connect to a database using Sequelize
